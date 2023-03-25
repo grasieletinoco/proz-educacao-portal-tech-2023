@@ -1,0 +1,18 @@
+Algoritmo "etiquetas_equipe"
+
+Var
+contador: inteiro
+equipe: caractere
+
+Inicio
+contador <- 1
+
+escreva ("Digite o nome da sua Equipe: ")
+leia(equipe)
+
+para contador <- 1 ate 5  faca
+Escreval (equipe, " –", contador)
+
+fimpara
+
+FimAlgoritmo

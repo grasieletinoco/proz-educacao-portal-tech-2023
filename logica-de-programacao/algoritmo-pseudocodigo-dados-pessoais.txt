@@ -1,0 +1,29 @@
+Algoritmo "dados_pessoais"
+
+Var
+nome, endereco, cidade: caractere
+cpf, rg: inteiro
+
+Inicio
+escreva ("Digite seu Nome: ")
+leia (nome)
+
+escreva ("Digite seu Endereco: ")
+leia (endereco)
+
+escreva ("Digite sua Cidade: ")
+leia (cidade)
+
+escreva ("Digite seu CPF: ")
+leia (cpf)
+
+escreva ("Digite seu RG: ")
+leia (rg)
+
+escreval ("O seu Nome é: ", nome)
+escreval ("O seu Endereço é: ", endereco)
+escreval ("A sua Cidade é: ", cidade)
+escreval ("O seu CPF é:", cpf)
+escreval ("O seu RG é:", rg)
+
+FimAlgoritmo

@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@400;500;600&family=Oswald:wght@300;400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto, Helvetica, sans-serif;
+}
+
+main{
+    background-color: #F0F8FF;
+}
+
+header{
+    height: 10vh;
+}
+
+.container{
+    padding: 0% 5%;
+}
+
+.logo{
+    height: 60px;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2%;
+}
+
+li {
+    list-style: none;
+}
+
+nav ul li {
+    text-transform: uppercase;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    color: #fa9440;
+}
+
+.headline{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2%;
+}
+
+.texto-headline{
+    margin-left: 10%;
+    flex: 40%;
+}
+
+.texto-headline p{
+    margin: 2%;
+}
+
+.img-headline{
+    margin-right: 6%;
+    flex: 40%;  
+}
+
+.headline h1{
+    text-shadow:2px 1px 2px #390983;
+    font-weight: 900;
+    font-size: 20px;
+    color: #fa9440;
+    padding: 0;
+    margin: 0;
+}
+
+.servicos-agencia h2{
+    font-size: 40px;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: oswald, cursive;
+    font-weight: bold;
+    background-color: #fa9440;
+    color: #390983;
+}
+
+.servicos-agencia h3{  
+    padding: 1%;
+}
+
+.servicos-agencia h4{
+    font-size: 30px;
+    font-family: alkatra;;
+    margin-top: 2%;
+    text-align: center;
+}
+
+.card{
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 2%;
+    text-align: center;
+}
+
+.card h3{
+    color: #390983;
+}
+
+.top-destinos{
+    text-align: center;
+    justify-content: space-around;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    background-color: #fa9440;
+}
+
+.top-destinos h3{
+    font-size: 30px;
+    text-align: center;
+    color: #390983;
+}
+
+.fotos img{
+    width: 33%;
+}
+
+.depoimentos{
+    margin-bottom: 2%;
+    padding-bottom: 2%;
+    background-color: #fdead2;
+}
+
+.depoimentos h2{
+    color: #fa9440;
+    text-align: center;
+}
+.clientes{
+    margin: 2%;
+
+}
+
+.button{
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px 25px;
+}
+
+.button:hover{
+    text-decoration: none;
+    color: #fa9440;
+}
+
+.rodape{ 
+    display: flex;
+    justify-content: space-around;
+    padding: 3%;
+    background-color: #0f0222;
+}
+
+.colum1 p{
+    color: #fa9440;
+}
+.colum2 a{
+    color: #fa9440; 
+    text-decoration: none;   
+}
+
+.colum3 li a{
+    color: #fa9440;
+    text-decoration: none;
+}
+
+.colum3 h5{
+    padding: 5px;
+    margin-top: 5%;
+    margin-bottom: 2%;
+    background-color: #fa9440;
+}
+
+.email{
+    width: 280px;
+}
+
+.btn{
+    width: 60px;
+}
+

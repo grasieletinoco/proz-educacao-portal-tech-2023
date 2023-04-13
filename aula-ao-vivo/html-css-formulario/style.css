@@ -1,0 +1,78 @@
+main{
+    background-color: aquamarine;
+}
+h1{
+    padding: 3%;
+    margin-bottom: 0%;
+    background-color: #1C1C1C;
+    color: white;
+}
+
+.menu{
+    display: flex;
+    height: 12%;
+    background-color: #000000;
+}
+
+.menu ul li {
+    display: inline-block;
+    padding-right: 20px;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+}
+
+.menu ul li a:hover{
+    color: #FF1493;
+}
+
+h2{
+    text-transform: uppercase;
+    color: #FF1493;
+}
+
+form {
+    width: 300px;
+    background-color: #E8E8E8;
+    padding: 2%;
+    margin-bottom: 5%;
+    border: 1px solid #8B008B;
+    border-radius: 1em;
+}
+
+label {
+    text-transform: uppercase;
+    display: inline-block;
+    width: 90px;
+}
+
+input{
+    margin-bottom: 5%;
+    width: 280px;
+    
+}
+
+.button{
+    margin-top: 4%;
+    width: 50%;
+}
+
+.tile{
+    color: blue;
+}
+
+.caixa{
+    height: 40px;
+    width: 150px;
+    padding: 40px;
+    margin: 1%;
+    background-color: #FFF0F5;
+    border: 2px solid #8B008B;
+}
+
+.caixa:hover{
+    background-color: #FFE4E1;
+}

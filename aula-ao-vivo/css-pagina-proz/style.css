@@ -1,0 +1,90 @@
+* {
+  font-family: 'Maven Pro', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.body{
+  background-color: #6C3C9D;
+  height: 100vh;
+}
+header {
+  background-color: lightgray;
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+}
+
+nav {
+  /* background-color: #EF7D19; */
+}
+
+ul {
+  display: flex;
+  height: 100%;
+  align-items: center;
+}
+
+nav ul li {
+  padding-left: 16px;
+  list-style-type: none;
+}
+
+nav ul li a{
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 16px;
+}
+
+nav ul li a:hover{
+  color: #EF7D19;
+  background-color: #5D478B;
+  border-radius: 10px;
+  padding: 16px;
+}
+
+main{
+  color: #FFFFFF;
+  padding-top: 16px;
+  padding-left: 12px;
+  width: 800px;
+  margin: 0 auto;
+}
+
+.main-titles h1{
+  font-size: 3rem;
+  text-shadow: 2px 2px #EF7D19;
+}
+
+.main-titles h2{
+  font-size: 1.5rem;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+}
+
+.section-card{
+  display: flex;
+  gap: 20px;
+}
+
+.card-text{
+  background-image: url(img/bg_laranja.jpg);
+  padding: 24px;
+  height: 200px;
+  width: 300px;
+  border-radius: 20px;
+  box-shadow: 0 5px 10px #0d0022;
+}
+
+.card-text:hover{
+  scale: 1.1;
+  transition: all 0.8s ease-in-out;
+}
+
+.card-text h3{
+  font-size: 1.2rem;
+  margin-bottom: 12px;
+  text-transform: uppercase;
+  color: #0d0022;
+}
